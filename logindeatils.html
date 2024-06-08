@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up page</title>
+</head>
+<body>
+    <form action="signupdetails.php  " method="post">
+        <fieldset>
+            <legend >sign-up details</legend>
+                 <table>
+                    <th>Login details</th>
+                     <tr>
+                         <td><label> Enter your name</label></td>
+                        <td><input type="text" name="txtname"></td>
+            
+                     </tr>
+                     <tr>
+                        <td><label>Enter phonenumber:</label></td>
+                        <td><input type="number" name="txtnum"></td>
+                     </tr>
+                     <tr>
+                        <td><label>Gender</label></td>
+                        <td><input type="radio" name="rdgender">male</td>
+                        <td><input type="radio" name="rdgender">female</td>
+                     </tr>
+                     <tr>
+                        <td><label>address</label></td>
+                        <td><textarea name="txtareaaddress"></textarea></td>
+                     </tr>
+                     <tr>
+                        <td><label>state</label></td>
+                        <td>
+                            <select>
+                                <option value="0">select state</option>
+                                <option value="1">karnataka</option>
+                                <option value="2">andhrapradesh</option>
+                                <option value="3">telangana</option>
+                                <option value="4">maharastra</option>
+                                <option value="5">tamilnadu</option>
+                            </select>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td><label>select your language</label></td>
+                        <td><input type="checkbox" name=chklang>kannada</td>
+                        <td><input type="checkbox" name=chklang>english</td>
+                        <td><input type="checkbox" name=chklang>telugu</td>
+                        <td><input type="checkbox" name=chklang>tamil</td>
+                     </tr>
+                     <tr>
+                        <td><input type="submit" name="submit" value="sing-up"></td>
+                        <td><input type="reset" name="reset" value="clear"></td>
+        
+                     </tr>
+
+
+                </table>
+
+                <table border="2">
+
+                    <th>student details</th>
+                    <tr>
+                        <th>name</th>
+                        <th>class</th>
+                        <th>college</th>
+                    </tr>
+                    <tr>
+                       <td>Roopashri</td>
+                       <td>4thsem</td>
+                       <td>sdm</td>
+                    </tr>
+                </table>
+        </fieldset>
+    </form>
+</body>
+</html>
